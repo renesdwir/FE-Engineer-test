@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.title-container {
+  background-color: #cacaca;
+}
+.title-container,
+.row-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.mahasiswa-container {
+  background-color: white;
+}
+.row {
+  width: 150px;
+  padding: 5px 0;
+}
+
+.row:first-child {
+  width: 200px;
+}
+
+.json-container {
+  width: 100%;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px 8px;
+  width: 150px;
+}
+select {
+  width: 60%;
+  text-align: center;
+}
